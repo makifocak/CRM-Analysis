@@ -1,0 +1,4 @@
+=IF(X308=1; "Low Risk"; IF(X308=2; "Medium Risk"; IF(OR(X308=3; X308=4); "High Risk"; "Safe")))
+=IF(V308 > 5000;"Premium"; IF(AND(V308 <= 5000; V308 > 3000); "High"; IF(AND(V308 <= 3000; V308 > 1000); "Moderate"; IF(V308 <= 1000; "Low"; ""))))
+=IF(F2<=6; "0-6 months"; IF(F2<=12; "7-12 months"; IF(F2<=24; "13-24 months"; "25+ months")))
+=IF(G2="25+ months";"Long Term Customer";IF(G2="13-24 months";"Established Customer";IF(G2="7-12 months";"Early Customer";IF(G2="0-6 months";"New Customer"))))
