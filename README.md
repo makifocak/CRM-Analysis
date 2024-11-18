@@ -1,4 +1,4 @@
-# CRM-Analysis
+# CRM-Analysis-Excel
 **Business Question:** What factors are most predictive of customer churn in a subscription-based service, and how can we identify at-risk customers early?
 
 For this analysis, I have used an IBM dataset called ‘Telco Customer Churn.’ It consists of 21 columns and 7043 unique values. The key metrics I have used were tenure, contract type, total spendings, and finally tech-support usage. 
